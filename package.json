@@ -1,10 +1,11 @@
 {
-  "name": "typescript-node-starter",
+  "name": "tns",
   "version": "1.0.0",
-  "description": "typescript nodejs starter",
   "author": "Ariel Henryson",
   "main": "dist/index",
   "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
     "@types/jest": "^22.1.2",
     "@types/node": "^9.4.5",
     "clean-webpack-plugin": "^0.1.18",
@@ -30,13 +31,8 @@
     "test": "jest --coverage",
     "build": "webpack"
   },
-  "keywords": [
-    "microserver",
-    "nodejs",
-    "typescript",
-    "jest",
-    "webpack",
-    "prettier"
-  ],
-  "license": "MIT"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
 }
