@@ -1,7 +1,5 @@
-import math from './mathematic'
-
 describe('Test Description', () => {
   it('TestName', () => {
-    expect(math.add(2, 2)).toBe(4)
+    expect(1).toBe(1)
   })
 })
